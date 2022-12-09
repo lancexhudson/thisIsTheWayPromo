@@ -32,3 +32,54 @@
   display: inline-block;
   margin: 0 15px;
 }
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 2rem;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+}
+
+.left-column {
+  margin-left: 3%;
+}
+
+.ep-title {
+  font-size: 8rem;
+  color: #fff;
+  line-height: 7.2rem;
+  float: left;
+}
+
+/* .release-date {
+  font-size: 0.5rem;
+  font-size: 3rem;
+  color: #fff;
+  line-height: 1rem;
+  float: left;
+} */
+
+.right-column {
+  float: right;
+  margin-right: 3%;
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.right-column p {
+  font-size: 18px;
+  color: #5f5f5f;
+  font-weight: 400;
+  margin-right: 100px;
+}
+
+#play {
+  width: 80px;
+  cursor: pointer;
+}
