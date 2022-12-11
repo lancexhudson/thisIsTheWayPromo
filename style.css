@@ -23,7 +23,9 @@
 }
 
 .logo {
-  width: 140px;
+  display: flex;
+  align-items: stretch;
+  width: 22rem;
   cursor: pointer;
 }
 
@@ -46,14 +48,15 @@
 }
 
 .left-column {
-  margin-left: 3%;
+  margin-left: 1%;
 }
 
 .ep-title {
-  font-size: 8rem;
+  font-size: 10rem;
   color: #fff;
-  line-height: 7.2rem;
+  line-height: 7.9rem;
   float: left;
+  margin-top: 1rem;
 }
 
 /* .release-date {
@@ -66,8 +69,8 @@
 
 .right-column {
   float: right;
-  margin-right: 3%;
-  margin-top: 110px;
+  margin-right: 8%;
+  margin-top: 20px;
   display: flex;
   align-items: center;
 }
